@@ -8,6 +8,9 @@ b = 2
 def f(x):
     return -x * (1 - exp(cos(x) + 2 * x * cos(x)))
 
+# def f(x):
+#     return exp(x / 10) * sin(x) + x ** 3 + cos(x)
+
 def funcA(left, right, n):
 
     return [left + i * (right - left) / n for i in range(n + 1)]
